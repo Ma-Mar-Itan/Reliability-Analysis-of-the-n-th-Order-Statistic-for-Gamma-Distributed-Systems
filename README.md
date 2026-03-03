@@ -61,7 +61,9 @@ Credentials are available under **Account → Tokens** on [shinyapps.io](https:/
 
 ```
 .
-└── Gamma_Fun_app.R   # Full Shiny app (UI + Server)
+├── Main probability function.R   # Core h(x; λ, k, n) function implementation
+├── Shiny App.R                   # Full Shiny app (UI + Server)
+└── README.md                     # Project documentation
 ```
 
 ---
